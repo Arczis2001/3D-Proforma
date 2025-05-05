@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D-Proforma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Strona Główna</a></li>
+        <li><a href="#">Sklep</a></li>
+        <li><a href="#">Galeria</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#" onclick="login()">Zaloguj się</a></li>
+      </ul>
+    </nav>
+    <h1>3D-Proforma</h1>
+    <p>Wysokiej jakości usługi druku 3D</p>
+  </header>
+  <section class="about">
+    <h2>O nas</h2>
+    <p>Oferujemy profesjonalny druk 3D na zamówienie, w tym modele użytkowe i prototypy. Zamów już dziś!</p>
+  </section>
+  <section class="store" id="store">
+    <h2>Produkty</h2>
+    <div id="products">
+      <!-- Produkty będą wczytane tutaj -->
+    </div>
+  </section>
+  <section class="contact">
+    <h2>Kontakt</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Imię i nazwisko" required />
+      <input type="email" name="email" placeholder="Adres e-mail" required />
+      <textarea name="message" placeholder="Wiadomość" required></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
